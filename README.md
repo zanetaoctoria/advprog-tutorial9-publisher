@@ -13,6 +13,6 @@ The URL `amqp://guest:guest@localhost:5672` used in both the publisher and subsc
 ![Sending and processing event](image/SendingAndProcessingEvent.png)
 When the subscriber is connected to RabbitMQ and the publisher sends data, the subscriber will receive the data sent by the publisher.
 
-
-
-
+### Monitoring Chart Based on Publisher
+![Monitoring chart based on publisher](image/MonitoringChartBasedOnPublisher.png)
+The purple graph on the message rate represents the Consumer ACK (acknowledgement), which is the confirmation from the subscriber to the message broker that the message has been successfully received and processed.
